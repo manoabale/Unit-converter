@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Unit Converter</h1>
+
+    <div class="box">
+      <input type="number" id="value" placeholder="Enter value">
+
+      <select id="fromUnit">
+        <option value="m">Meters</option>
+        <option value="km">Kilometers</option>
+        <option value="cm">Centimeters</option>
+        <option value="mi">Miles</option>
+        <option value="ft">Feet</option>
+      </select>
+
+      <select id="toUnit">
+        <option value="km">Kilometers</option>
+        <option value="m">Meters</option>
+        <option value="cm">Centimeters</option>
+        <option value="mi">Miles</option>
+        <option value="ft">Feet</option>
+      </select>
+
+      <button id="convertBtn">Convert</button>
+
+      <h2 id="result">Converted Value: —</h2>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
